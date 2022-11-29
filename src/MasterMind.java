@@ -22,18 +22,18 @@ public class MasterMind {  // begin class
     public static void main(String[] args)throws IOException {  // begin main
 
         // ********* declaration of constants **********
-        final int DIFF = 1;          // the diffrence for for-loops
-        final char WIN = 'W';        // when the player guesses the right number in the right position or wins the game
-        final char LOST = 'L';       // when the player guesses the wrong number or runs out of tries
-        final char ALMOST = 'A';     // when the player guesses the right number int the wrong position
+         final int DIFF = 1;          // the diffrence for for-loops
+         final char WIN = 'W';        // when the player guesses the right number in the right position or wins the game
+         final char LOST = 'L';       // when the player guesses the wrong number or runs out of tries
+         final char ALMOST = 'A';     // when the player guesses the right number int the wrong position
         final int FIRST = 0;        // First value in array
         final int RESTART = 0;      // initializeintizing values
         final int COUNTER = 1;      // the counter/increases in a value
         // ********** declaration of variables **********
 
-        String strin;        // string data input from keyboard
-        String strout;        // processed info string to be output
-        String bannerOut;        // string to print banner to message dialogs
+         String strin;        // string data input from keyboard
+         String strout;        // processed info string to be output
+         String bannerOut;        // string to print banner to message dialogs
 
         String prompt;        // prompt for use in input dialogs
 
